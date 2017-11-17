@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="testScripts.test">
+        <parameter name="baseurl" value="https://fppcollab.atlassian.net/secure/Dashboard.jspa"/>
+        <parameter name="CONFIGFILE" value="User"/>
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testScripts.test -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

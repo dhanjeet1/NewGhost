@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Tests" >
+     <suite-files>
+         	
+            <suite-file path="./Login.xml" />
+           
+           
+      </suite-files> 
+</suite>

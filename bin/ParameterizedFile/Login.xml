@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1" parallel="false">
+  <test name="Test1" preserve-order="true">
+    <classes>
+        <class name="testScripts.test">
+        <parameter name="CONFIGFILE" value="User"/>
+        <parameter name="baseurl" value="https://fppcollab.atlassian.net/secure/Dashboard.jspa"/>
+        
+        </class>
+         
+       
+       
+    </classes>
+  </test> 
+</suite>
+
