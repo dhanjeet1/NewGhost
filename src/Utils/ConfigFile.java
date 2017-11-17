@@ -35,7 +35,7 @@ public class ConfigFile {
     	//	WebDriver ldriver = new ChromeDriver(options);
         //	WebDriver ldriver = new ChromeDriver();
         	
-			System.setProperty("phantomjs.binary.path", "src/Utils/phantomjs.exe");
+			System.setProperty("phantomjs.binary.path", "src/Utils/phantomjs");
         	WebDriver ldriver = new PhantomJSDriver();	
 			
 		//	HtmlUnitDriver ldriver = new HtmlUnitDriver();

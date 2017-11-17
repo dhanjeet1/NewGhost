@@ -83,3 +83,24 @@ essions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-11-17T02:53:39.741Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-11-17T02:58:38.513Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-11-17T03:03:38.514Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-11-17T06:31:00.104Z] GhostDriver - Main - running on port 21534
+[INFO  - 2017-11-17T06:31:00.878Z] Session [e0e80350-cb60-11e7-ad3c-61feb47ca30b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-11-17T06:31:00.878Z] Session [e0e80350-cb60-11e7-ad3c-61feb47ca30b] - page.customHeaders:  - {}
+[INFO  - 2017-11-17T06:31:00.878Z] Session [e0e80350-cb60-11e7-ad3c-61feb47ca30b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-11-17T06:31:00.878Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e0e80350-cb60-11e7-ad3c-61feb47ca30b
+[ERROR - 2017-11-17T06:31:42.814Z] Session [e0e80350-cb60-11e7-ad3c-61feb47ca30b] - page.onError - msg: ReferenceError: Can't find variable: Map
+[ERROR - 2017-11-17T06:31:42.814Z] Session [e0e80350-cb60-11e7-ad3c-61feb47ca30b] - page.onError - stack:
+  a (https://d21954r9u4dvgj.cloudfront.net/atl-vertigo--shard-jira-prod-us-10--2--jres.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/-xsjgkn/b/a/fa83782d177193fa9c1f5825629d289b/_/download/contextbatch/js/atl.dashboard,atl.general,jira.global,jira.dashboard,jira.general,atl.global,-_super/batch.js?agile_global_admin_condition=true&devsummary=true&jag=true&locale=zh-CN:192)
+  (anonymous function) (https://d21954r9u4dvgj.cloudfront.net/atl-vertigo--shard-jira-prod-us-10--2--jres.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/-xsjgkn/b/a/fa83782d177193fa9c1f5825629d289b/_/download/contextbatch/js/atl.dashboard,atl.general,jira.global,jira.dashboard,jira.general,atl.global,-_super/batch.js?agile_global_admin_condition=true&devsummary=true&jag=true&locale=zh-CN:193)
+  (anonymous function) (https://d21954r9u4dvgj.cloudfront.net/atl-vertigo--shard-jira-prod-us-10--2--jres.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/-xsjgkn/b/a/fa83782d177193fa9c1f5825629d289b/_/download/contextbatch/js/atl.dashboard,atl.general,jira.global,jira.dashboard,jira.general,atl.global,-_super/batch.js?agile_global_admin_condition=true&devsummary=true&jag=true&locale=zh-CN:109)
+[ERROR - 2017-11-17T06:31:42.815Z] Session [e0e80350-cb60-11e7-ad3c-61feb47ca30b] - page.onError - msg: ReferenceError: Can't find variable: Calendar
+[ERROR - 2017-11-17T06:31:42.815Z] Session [e0e80350-cb60-11e7-ad3c-61feb47ca30b] - page.onError - stack:
+  global code (https://d21954r9u4dvgj.cloudfront.net/atl-vertigo--shard-jira-prod-us-10--2--jres.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/-xsjgkn/b/a/9053819a39863f3e4df9122ac9ed0b9e/_/download/batch/jira.webresources:calendar-zh/jira.webresources:calendar-zh.js:3)
+[ERROR - 2017-11-17T06:32:06.544Z] Session [e0e80350-cb60-11e7-ad3c-61feb47ca30b] - page.onError - msg: messages.load.failed - {"error":"unknown error occurred during Hermes Messages initialization"}
+[ERROR - 2017-11-17T06:32:06.544Z] Session [e0e80350-cb60-11e7-ad3c-61feb47ca30b] - page.onError - stack:
+  o (https://aes-artifacts--cdn.us-east-1.prod.public.atl-paas.net/hashed/kBXkb-gOli5nUovcWJynTOv8Gju2mnmImj1g0M7uVEc/variation-1/main.js:1)
+[ERROR - 2017-11-17T06:32:06.546Z] Session [e0e80350-cb60-11e7-ad3c-61feb47ca30b] - page.onError - msg: Uncaught (in promise) unknown error occurred during Hermes Messages initialization
+
+[ERROR - 2017-11-17T06:32:06.546Z] Session [e0e80350-cb60-11e7-ad3c-61feb47ca30b] - page.onError - stack:
+  unhandledRejection (https://aes-artifacts--cdn.us-east-1.prod.public.atl-paas.net/hashed/kBXkb-gOli5nUovcWJynTOv8Gju2mnmImj1g0M7uVEc/variation-1/main.js:1)
+[ERROR - 2017-11-17T06:32:17.582Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1510900337572
