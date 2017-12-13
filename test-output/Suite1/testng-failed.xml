@@ -4,7 +4,7 @@
   <test name="Test1(failed)">
     <classes>
       <class name="testScripts.test">
-        <parameter name="baseurl" value="https://fppcollab.atlassian.net/secure/Dashboard.jspa"/>
+        <parameter name="baseurl" value="https://www.google.co.in/"/>
         <parameter name="CONFIGFILE" value="User"/>
         <methods>
           <include name="login" invocation-numbers="0"/>

@@ -4,7 +4,7 @@
     <classes>
         <class name="testScripts.test">
         <parameter name="CONFIGFILE" value="User"/>
-        <parameter name="baseurl" value="https://fppcollab.atlassian.net/secure/Dashboard.jspa"/>
+        <parameter name="baseurl" value="https://www.google.co.in/"/>
         
         </class>
          

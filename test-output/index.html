@@ -2,6 +2,7 @@
 
 <html>
   <head>
+  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
     <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
@@ -101,7 +102,7 @@
                     <div class="method-list-content failed suite-Suite1">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="testScripts.test" hash-for-method="login(User, https://fppcollab.atlassian.net/secure/Dashboard.jspa)">login(User, https://fppcollab.atlassian.net/secure/Dashboard.jspa)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="testScripts.test" hash-for-method="login(User, https://www.google.co.in/)">login(User, https://www.google.co.in/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite1 -->
@@ -124,38 +125,44 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login(User, https://fppcollab.atlassian.net/secure/Dashboard.jspa)">
-                  </a> <!-- login(User, https://fppcollab.atlassian.net/secure/Dashboard.jspa) -->
+                  <a name="login(User, https://www.google.co.in/)">
+                  </a> <!-- login(User, https://www.google.co.in/) -->
                   <span class="method-name">login</span>
-                  <span class="parameters">(User, https://fppcollab.atlassian.net/secure/Dashboard.jspa)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: {&quot;errorMessage&quot;:&quot;Unable to find element with xpath &apos;//*[contains(text(),&apos;Log in&apos;)]&apos;&quot;,&quot;request&quot;:{&quot;headers&quot;:{&quot;Accept&quot;:&quot;application/json, image/png&quot;,&quot;Connection&quot;:&quot;Keep-Alive&quot;,&quot;Content-Length&quot;:&quot;58&quot;,&quot;Content-Type&quot;:&quot;application/json; charset=utf-8&quot;,&quot;Host&quot;:&quot;localhost:21534&quot;},&quot;httpVersion&quot;:&quot;1.1&quot;,&quot;method&quot;:&quot;POST&quot;,&quot;post&quot;:&quot;{\&quot;using\&quot;:\&quot;xpath\&quot;,\&quot;value\&quot;:\&quot;//*[contains(text(),&apos;Log in&apos;)]\&quot;}&quot;,&quot;url&quot;:&quot;/element&quot;,&quot;urlParsed&quot;:{&quot;anchor&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;file&quot;:&quot;element&quot;,&quot;directory&quot;:&quot;/&quot;,&quot;path&quot;:&quot;/element&quot;,&quot;relative&quot;:&quot;/element&quot;,&quot;port&quot;:&quot;&quot;,&quot;host&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;,&quot;user&quot;:&quot;&quot;,&quot;userInfo&quot;:&quot;&quot;,&quot;authority&quot;:&quot;&quot;,&quot;protocol&quot;:&quot;&quot;,&quot;source&quot;:&quot;/element&quot;,&quot;queryKey&quot;:{},&quot;chunks&quot;:[&quot;element&quot;]},&quot;urlOriginal&quot;:&quot;/session/e0e80350-cb60-11e7-ad3c-61feb47ca30b/element&quot;}}
-Command duration or timeout: 30.21 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                  <span class="parameters">(User, https://www.google.co.in/)</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
-System info: host: &apos;JTGDT12&apos;, ip: &apos;14.99.196.153&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: org.openqa.selenium.phantomjs.PhantomJSDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=false, databaseEnabled=false, version=2.1.1, platform=XP, browserConnectionEnabled=false, proxy={proxyType=direct}, nativeEvents=true, acceptSslCerts=false, driverVersion=1.2.0, locationContextEnabled=false, webStorageEnabled=false, browserName=phantomjs, takesScreenshot=true, driverName=ghostdriver, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: e0e80350-cb60-11e7-ad3c-61feb47ca30b
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
-	at testScripts.test.login(test.java:31)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+System info: host: &apos;JTGDT12&apos;, ip: &apos;10.90.88.94&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: PhantomJSDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:115)
+	at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:107)
+	at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:96)
+	at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:86)
+	at Utils.ConfigFile.getWebDriver(ConfigFile.java:39)
+	at testScripts.test.login(test.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
 Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
-System info: host: &apos;JTGDT12&apos;, ip: &apos;14.99.196.153&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:125)
-	... 29 more
-Caused by: org.openqa.selenium.NoSuchElementException: {&quot;errorMessage&quot;:&quot;Unable to find element with xpath &apos;//*[contains(text(),&apos;Log in&apos;)]&apos;&quot;,&quot;request&quot;:{&quot;headers&quot;:{&quot;Accept&quot;:&quot;application/json, image/png&quot;,&quot;Connection&quot;:&quot;Keep-Alive&quot;,&quot;Content-Length&quot;:&quot;58&quot;,&quot;Content-Type&quot;:&quot;application/json; charset=utf-8&quot;,&quot;Host&quot;:&quot;localhost:21534&quot;},&quot;httpVersion&quot;:&quot;1.1&quot;,&quot;method&quot;:&quot;POST&quot;,&quot;post&quot;:&quot;{\&quot;using\&quot;:\&quot;xpath\&quot;,\&quot;value\&quot;:\&quot;//*[contains(text(),&apos;Log in&apos;)]\&quot;}&quot;,&quot;url&quot;:&quot;/element&quot;,&quot;urlParsed&quot;:{&quot;anchor&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;file&quot;:&quot;element&quot;,&quot;directory&quot;:&quot;/&quot;,&quot;path&quot;:&quot;/element&quot;,&quot;relative&quot;:&quot;/element&quot;,&quot;port&quot;:&quot;&quot;,&quot;host&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;,&quot;user&quot;:&quot;&quot;,&quot;userInfo&quot;:&quot;&quot;,&quot;authority&quot;:&quot;&quot;,&quot;protocol&quot;:&quot;&quot;,&quot;source&quot;:&quot;/element&quot;,&quot;queryKey&quot;:{},&quot;chunks&quot;:[&quot;element&quot;]},&quot;urlOriginal&quot;:&quot;/session/e0e80350-cb60-11e7-ad3c-61feb47ca30b/element&quot;}}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
-System info: host: &apos;JTGDT12&apos;, ip: &apos;14.99.196.153&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: driver.version: unknown
-... Removed 27 stack frames
+System info: host: &apos;JTGDT12&apos;, ip: &apos;10.90.88.94&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: PhantomJSDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:62)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 33 more
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:7212/status] to be available after 20010 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:104)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:163)
+	... 35 more
+Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:143)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:79)
+	... 36 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
+	... 37 more
+... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -174,7 +181,7 @@ Driver info: driver.version: unknown
   &lt;test name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testScripts.test&quot;&gt;
-        &lt;parameter name=&quot;baseurl&quot; value=&quot;https://fppcollab.atlassian.net/secure/Dashboard.jspa&quot;/&gt;
+        &lt;parameter name=&quot;baseurl&quot; value=&quot;https://www.google.co.in/&quot;/&gt;
         &lt;parameter name=&quot;CONFIGFILE&quot; value=&quot;User&quot;/&gt;
       &lt;/class&gt; &lt;!-- testScripts.test --&gt;
     &lt;/classes&gt;
@@ -220,12 +227,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'testScripts.test')
-data.setCell(0, 3, 80632);
+data.setCell(0, 3, 20518);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -255,7 +262,7 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">login(User, https://fppcollab.atlassian.net/secure/Dashboard.jspa)</span>
+                <span class="method-name">login(User, https://www.google.co.in/)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
